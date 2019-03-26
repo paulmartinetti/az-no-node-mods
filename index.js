@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 
 app.get('/', (req, res)=>{
-    res.send('hello azzzzure no node modules :)')
+    res.send('hello azzzzure no node modules...and an update :)')
 })
 
 let port = process.env.PORT || 5000;

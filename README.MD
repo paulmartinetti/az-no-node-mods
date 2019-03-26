@@ -23,8 +23,8 @@ https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest
 // zenva video author for azure node deployment - Burke Holland
 twitter.com/burkeholland
 
-// my first site
-https://pmartinettifirstapp.azurewebsites.net/
+// 2nd site, no node modules
+https://pmartinettiazapp1.azurewebsites.net/
 
 // see changes in
 package.json - new start script
