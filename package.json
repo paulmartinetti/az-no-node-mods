@@ -1,0 +1,23 @@
+{
+  "name": "az-no-node-mods",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulmartinetti/az-no-node-mods.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulmartinetti/az-no-node-mods/issues"
+  },
+  "homepage": "https://github.com/paulmartinetti/az-no-node-mods#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
