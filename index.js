@@ -1,9 +1,13 @@
 const express = require('express')
 const app = express();
 
-app.get('/', (req, res)=>{
-    res.send('hello azzzzure no node modules...and an update :)')
+
+let connectionString = process.env.CONN_STRING
+
+app.get('/', (req, res) => {
+    res.send('hello azzzzure no node modules...and an update'+connectionString)
 })
+
 
 let port = process.env.PORT || 5000;
 

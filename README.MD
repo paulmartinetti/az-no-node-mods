@@ -28,8 +28,11 @@ https://pmartinettiazapp1.azurewebsites.net/
 
 // see changes in
 package.json - new start script
+env variable set in start script "start": "PORT=3000 node index.js"
+
 index.js - new PORT env variable
 .gitignore - node_modules
+
 
 // here Local Git is local to azure
 // r-click on AppService > Configure Deployment Source > Local Git
